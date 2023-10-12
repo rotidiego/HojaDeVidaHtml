@@ -1,0 +1,45 @@
+{
+    "Experiencia":[
+        {
+            "Empresa": "Intergrupo",
+            "Cargo": "Aprendiz",
+            "FechaInicio": "29/11/2022",
+            "FechaFin": "28/05/2022",
+            "Img": "https://www.revistacloudcomputing.com/wp-content/uploads/2020/11/softwareone-intergrupo.jpg",
+            "Responsabilidades": ""
+        },
+        {
+            "Empresa": "SoftwareOne Intergrupo",
+            "Cargo": "Ingeniero de Desarrollo",
+            "FechaInicio":"06/06/2022",
+            "FechaFin": "Actualidad",
+            "Img": ""
+        }
+    ],
+    "Repositorios": [
+        {
+            "Nombre":"Frecuencia y Entropia de Videos",
+            "Descrpicion":"",
+            "Url": "",
+            "Img": "https://cdn-icons-png.flaticon.com/512/20/20513.png"
+        },
+        {
+            "Nombre":"Calculadora de tasas de intereses",
+            "Descrpicion":"",
+            "Url": "",
+            "Img": "https://cdn-icons-png.flaticon.com/512/3625/3625050.png"
+        },
+        {
+            "Nombre":"Netflix v1",
+            "Descrpicion":"",
+            "Url": "",
+            "Img": "https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png?w=700&h=456"
+        },
+        {
+            "Nombre":"Netflix v2",
+            "Descrpicion":"",
+            "Url": "",
+            "Img": "https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png?w=700&h=456"
+        }
+    ]
+}

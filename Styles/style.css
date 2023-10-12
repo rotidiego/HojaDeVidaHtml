@@ -1,0 +1,72 @@
+body{
+    padding: 30px;
+    padding-top: 15px;
+    font-family: Century Gothic, sans-serif;
+}
+header{
+    background-color: rgb(22 26 49);
+    color: white;
+}
+hr{
+    border: 0;
+    height: 2.2px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+h1{
+    line-height: 2em;
+}
+h2{
+    font-weight: bold;
+}
+h3{
+    line-height: 1.5em;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.containerPerfil{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-bottom: 20px;
+}
+.HeaderInfo{
+    text-align: end;
+    padding: 30px;   
+    transition-duration: 0.5s;
+}
+.HeaderInfo:hover{
+    padding-right: 40px;
+    color: rgb(182, 182, 182);
+    transition-duration: 1s;
+}
+.Info{
+    padding: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    transition-duration: 0.5s;
+}
+.Info:hover{
+    padding-left: 40px;
+    background: linear-gradient(270deg, rgb(211, 209, 209), rgb(231, 230, 230) 40%, rgb(255, 255, 255));
+    transition-duration: 0.5s;
+}
+.Experiencia{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+}
+.ExperienciaInfo{
+    padding: 30px;
+}
+.cardPersonalizado{
+    max-height: 370px;
+    height: 370px;
+    font-size: 17px !important;
+}
+.cardPersonalizado:hover{
+    background-color: #f0f0f0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: black;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
