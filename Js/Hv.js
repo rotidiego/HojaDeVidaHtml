@@ -55,7 +55,7 @@ $(document).ready(function () {
         let htmlList = '<div class="card"><ul class="list-group list-group-flush">'
         let aux = '';
         for (let i = 0; i < Experiencia['length']; i++) {
-            aux = i == 0 ? 'style="display: none;' : '';
+            aux = i != 0 ? 'style="display: none;' : '';
             htmlList += '<li class="list-group-item" onclick="CambiarExperiencia(' + i + ')" style="cursor:pointer;">' + Experiencia[i]['Empresa'] + ' - ' + Experiencia[i]['FechaInicio'] + '</li>';
             htmlExp += '<div class="Experiencia" id="Exp' + i + '" ' + aux + '>'
             htmlExp += '<div class="row">'
