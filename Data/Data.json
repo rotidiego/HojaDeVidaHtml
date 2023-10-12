@@ -5,7 +5,7 @@
             "Cargo": "Aprendiz",
             "FechaInicio": "29/11/2022",
             "FechaFin": "28/05/2022",
-            "Img": "https://www.revistacloudcomputing.com/wp-content/uploads/2020/11/softwareone-intergrupo.jpg",
+            "Img": "data:image/png;base64,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",
             "Responsabilidades": ""
         },
         {
@@ -13,33 +13,50 @@
             "Cargo": "Ingeniero de Desarrollo",
             "FechaInicio":"06/06/2022",
             "FechaFin": "Actualidad",
-            "Img": ""
+            "Img": "https://www.revistacloudcomputing.com/wp-content/uploads/2020/11/softwareone-intergrupo.jpg",
+            "Responsabilidades": ""
         }
     ],
     "Repositorios": [
         {
             "Nombre":"Frecuencia y Entropia de Videos",
-            "Descrpicion":"",
+            "Descrpicion":"--",
             "Url": "",
             "Img": "https://cdn-icons-png.flaticon.com/512/20/20513.png"
         },
         {
             "Nombre":"Calculadora de tasas de intereses",
-            "Descrpicion":"",
+            "Descrpicion":"--",
             "Url": "",
             "Img": "https://cdn-icons-png.flaticon.com/512/3625/3625050.png"
         },
         {
             "Nombre":"Netflix v1",
-            "Descrpicion":"",
+            "Descrpicion":"--",
             "Url": "",
             "Img": "https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png?w=700&h=456"
         },
         {
             "Nombre":"Netflix v2",
-            "Descrpicion":"",
+            "Descrpicion":"--",
             "Url": "",
             "Img": "https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png?w=700&h=456"
+        }
+    ],
+    "Estudios": [
+        {
+            "Instituto": "Universidad Distrital Francisco Jose de Caldas",
+            "Carrera": "Tecnologia en Sistematización de Datos",
+            "FechaInicio": "29/11/2022",
+            "FechaFin": "28/05/2022",
+            "Img": "https://yt3.googleusercontent.com/ytc/APkrFKZeKmo8w75HRWKIwyPW_QgYITE3UV-xH-zi_YRJSQ=s900-c-k-c0x00ffffff-no-rj"
+        },
+        {
+            "Instituto": "Universidad Distrital Francisco Jose de Caldas",
+            "Carrera": "Ingenieria en Telematica",
+            "FechaInicio": "29/11/2022",
+            "FechaFin": "En curso",
+            "Img": "https://yt3.googleusercontent.com/ytc/APkrFKZeKmo8w75HRWKIwyPW_QgYITE3UV-xH-zi_YRJSQ=s900-c-k-c0x00ffffff-no-rj"
         }
     ]
 }
