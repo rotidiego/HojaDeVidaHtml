@@ -53,11 +53,9 @@ $(document).ready(function () {
     function CargarExperiencia() {
         let htmlExp = '';
         let htmlList = '<div class="card"><ul class="list-group list-group-flush">'
-        let aux = '';
         for (let i = 0; i < Experiencia['length']; i++) {
-            aux = i != 0 ? 'style="display: none;' : 'style="display: block;"';
             htmlList += '<li class="list-group-item" onclick="CambiarExperiencia(' + i + ')" style="cursor:pointer;">' + Experiencia[i]['Empresa'] + ' - ' + Experiencia[i]['FechaInicio'] + '</li>';
-            htmlExp += '<div class="Experiencia" id="Exp' + i + '" ' + aux + '>'
+            htmlExp += '<div class="Experiencia" id="Exp' + i + '" hidden>'
             htmlExp += '<div class="row">'
             htmlExp += '<div class="col-lg-5">'
             htmlExp += '<img class="img-fluid"'
@@ -79,14 +77,15 @@ $(document).ready(function () {
         htmlList += '</ul></div>'
         $('#ExperienciaLista').html(htmlList);
         $('#ExperienciaDetalle').html(htmlExp);
+        CambiarExperiencia(0)
     }
 })
 function CambiarExperiencia(n) {
     for (let i = 0; i < Experiencia['length']; i++) {
         if (i == Number(n)) {
-            $('#Exp' + i).show();
+            document.getElementById('Exp' + i).hidden=false;
         } else {
-            $('#Exp' + i).hide();
+            document.getElementById('Exp' + i).hidden=true;
         }
 
     }
