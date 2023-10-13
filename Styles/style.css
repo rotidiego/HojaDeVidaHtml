@@ -47,7 +47,7 @@ a{
     transition-duration: 0.5s;
 }
 .Info:hover{
-    padding-left: 35px;
+    padding-left: 32px;
     background: linear-gradient(270deg, rgb(211, 209, 209), rgb(231, 230, 230) 40%, rgb(255, 255, 255));
     transition-duration: 0.5s;
 }
@@ -62,8 +62,8 @@ a{
     font-size: 17px !important;
 }
 .cardPersonalizado:hover{
-    background-color: #f0f0f0;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #f8f8f8;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
     color: black; 
     transition-duration: 0.5s;
 }

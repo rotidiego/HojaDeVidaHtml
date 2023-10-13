@@ -36,12 +36,12 @@ $(document).ready(function () {
     function CargarRepos() {
         let htmlRepos = '';
         for (let i = 0; i < Repositorios['length']; i++) {
-            htmlRepos += '<div class="col-lg">'
+            htmlRepos += '<div class="cardPersonalizado col-lg" style="max-height:180px; max-width:300px">'
             htmlRepos += '<a href="' + Repositorios[i]['Url'] + '">'
-            htmlRepos += '<div class="cardPersonalizado card" style="width: 18rem;">'
-            htmlRepos += '<img class="card-img-top" src="' + Repositorios[i]['Img'] + '"'
-            htmlRepos += ' alt="Card image cap">'
-            htmlRepos += '<div class="card-body"><h5>' + Repositorios[i]['Nombre'] + '</h5>'
+            htmlRepos += '<div class="row">'
+            htmlRepos += '<div class="col-2"><img class="img-fluid" src="' + Repositorios[i]['Img'] + '"'
+            htmlRepos += ' alt="Card image cap"></div>'
+            htmlRepos += '<div class="Col"><h5>' + Repositorios[i]['Nombre'] + '</h5>'
             htmlRepos += '<p class="card-text">' + Repositorios[i]['Descripcion'] + '</p>'
             htmlRepos += '</div>'
             htmlRepos += '</div>'
